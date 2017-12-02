@@ -1,6 +1,6 @@
 # spark
 Create Lightning apps with no build configuration.
-- Getting Started - How to create a new app.
+- [Getting Started](#getting-started) - How to create a new app.
 - User Guide - How to develop apps bootstrapped with Spark.
 
 ## Requirements

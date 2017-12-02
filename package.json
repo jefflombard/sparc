@@ -1,0 +1,29 @@
+{
+  "name": "spark",
+  "version": "0.0.1",
+  "description": "Create Lightning apps with no build configuration.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jefflombard/spark.git"
+  },
+  "keywords": [
+    "salesforce",
+    "lightning",
+    "sfdx",
+    "developer",
+    "tools",
+    "lightning-component",
+    "salesforce-lightning",
+    "addon"
+  ],
+  "author": "Jeff Lombard",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/jefflombard/spark/issues"
+  },
+  "homepage": "https://github.com/jefflombard/spark#readme"
+}

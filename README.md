@@ -1,4 +1,4 @@
-# spark
+# Spark
 Create Lightning apps with no build configuration. Inspired by [Create React App](https://github.com/facebookincubator/create-react-app)
 
 ## Quick Overview

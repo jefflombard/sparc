@@ -58,7 +58,10 @@ In addition to creating scaffolding for projects, spark contains useful scripts 
 
 ### Development
 #### Add packages
-- `spark add:redux` - installs redux and adds a provider component as described in (Lightning-Redux)[https://github.com/madmax983/lightning-redux]
+- `spark add:redux` - installs redux and adds a provider component as described in [Lightning-Redux](https://github.com/madmax983/lightning-redux)
+- `spark add:strike` - adds components from the [strike](http://www.lightningstrike.io/) library
+- `spark add:jquery` - refers you to resources to help you become a better javascript developer. ;)
+
 #### Working with scratch orgs
 - `spark build` - runs the build command for the project.
 - `spark push` - pushes local project to default scratch org.

@@ -11,7 +11,7 @@ spark preview
 ```
 
 ### Shortcuts
-Spark also has convenient shortcuts that make Lightning development a breeze, see [shortcuts](#shotcuts)
+Spark also has convenient shortcuts that make Lightning development a breeze, see [shortcuts](#shotcuts).
 
 ## Getting Started
 
@@ -28,10 +28,11 @@ Install spark once globally:
 ```
 
 ### Log in
-*You need to be logged in and authenticated to a dev hub org in SFDX.*
+*You need to be logged in and authenticated to a dev hub org in SFDX.* This can be done quickly by running:
 ```
     spark login
 ```
+`spark login` automatically sets whichever hub org you log into as your default.
 
 ### Creating an App
 

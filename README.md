@@ -57,6 +57,9 @@ Once installation is finished, you can speed up development by running shortcuts
 ## Shortcuts and Commands
 In addition to creating scaffolding for projects, spark contains useful scripts and aliases for SFDX commands. These should be run from within a project folder.
 
+### Starting a new project
+- `spark create myProject` - creates a new project called myProject
+
 ### Development
 #### Add packages and tools
 - `spark add:redux` - installs redux and adds a provider component as described in [Lightning-Redux](https://github.com/madmax983/lightning-redux).
@@ -74,9 +77,6 @@ In addition to creating scaffolding for projects, spark contains useful scripts 
 
 #### Deploying to production
 - `spark package` - builds a package that can easily be deployed to a production org.
-
-### Starting a new project
-- `spark create myProject` - creates a new project called myProject
 
 ## Contributing
 Help is appreciated, if you would like to contribute, you can either message me or create a PR.

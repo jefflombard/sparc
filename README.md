@@ -1,6 +1,5 @@
 # spark
 Create Lightning apps with no build configuration.
-- [Getting Started](#getting-started) - How to create a new app.
 
 ## Quick Overview
 ```
@@ -22,8 +21,8 @@ Install spark once globally:
 ```
 
 #### Requirements
-- (Node.js)[https://nodejs.org] >= v8.1.3
-- (SFDX)[https://developer.salesforce.com/tools/sfdxcli]
+- [Node.js](https://nodejs.org) >= v8.1.3
+- [SFDX](https://developer.salesforce.com/tools/sfdxcli)
 
 You need to be logged in and authenticated to a dev hub org in SFDX.
 

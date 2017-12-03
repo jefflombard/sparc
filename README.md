@@ -59,16 +59,16 @@ In addition to creating scaffolding for projects, spark contains useful scripts 
 
 ### Development
 #### Add packages and tools
-- `spark add:redux` - installs redux and adds a provider component as described in [Lightning-Redux](https://github.com/madmax983/lightning-redux)
-- `spark add:strike` - adds components from the [strike](http://www.lightningstrike.io/) library
+- `spark add:redux` - installs redux and adds a provider component as described in [Lightning-Redux](https://github.com/madmax983/lightning-redux).
+- `spark add:strike` - adds components from the [strike](http://www.lightningstrike.io/) library.
 - `spark add:git` - runs the `git init` command.
 
 #### Working with scratch orgs
 - `spark build` - runs the build command for the project.
 - `spark push` - pushes local project to default scratch org.
-- `spark push:force` - pushes local project to default scratch org ignoring conflicts
+- `spark push:force` - pushes local project to default scratch org ignoring conflicts.
 - `spark preview` - pushes local code to default scratch org and opens in a new window.
-- `spark open` - opens the local default scratch org
+- `spark open` - opens the local default scratch org.
 #### Testing
 - `spark test` - runs the test command to run default tests.
 

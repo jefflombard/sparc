@@ -54,14 +54,15 @@ my-app
 Spark makes it easy to write Lightning apps, handling boiler plate for you.
 Once installation is finished, you can speed up development by running shortcuts inside the project folder.
 
-## Shortcuts
-In addition to creating scaffolding for projects, spark contains useful scripts and aliases for SFDX commands
+## Shortcuts and Commands
+In addition to creating scaffolding for projects, spark contains useful scripts and aliases for SFDX commands. These should be run from within a project folder.
 
 ### Development
-#### Add packages
+#### Add packages and tools
 - `spark add:redux` - installs redux and adds a provider component as described in [Lightning-Redux](https://github.com/madmax983/lightning-redux)
 - `spark add:strike` - adds components from the [strike](http://www.lightningstrike.io/) library
 - `spark add:jquery` - refers you to resources to help you become a better javascript developer. ;)
+- `spark add:git` - runs the `git init` command.
 
 #### Working with scratch orgs
 - `spark build` - runs the build command for the project.
@@ -72,8 +73,11 @@ In addition to creating scaffolding for projects, spark contains useful scripts 
 #### Testing
 - `spark test` - runs the test command to run default tests.
 
-### Packaging for Production
-- `spark package` - builds a package that can be deployed to a production org.
+#### Deploying to production
+- `spark package` - builds a package that can easily be deployed to a production org.
+
+### Starting a new project
+- `spark create myProject` - creates a new project called myProject
 
 ## Contributing
 Help is appreciated, if you would like to contribute, you can either message me or create a PR.

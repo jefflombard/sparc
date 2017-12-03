@@ -1,5 +1,5 @@
 # Sparc
-Create Lightning apps with no build configuration. Inspired by [Create React App](https://github.com/facebookincubator/create-react-app)
+Create Lightning apps with no build configuration. Inspired by [Create React App](https://github.com/facebookincubator/create-react-app).
 
 ## Quick Overview
 ```
@@ -86,6 +86,8 @@ Help is appreciated, if you would like to contribute, you can either message me 
 - Adding features/functionality
 - Yarn
 
-# Influenced by:
-- Create React App
-- Lightning Redux
+# Acknowledgements
+Special thanks to the following projects:
+
+- [Create React App](https://github.com/facebookincubator/create-react-app)
+- [Lightning Redux](https://github.com/madmax983/lightning-redux)

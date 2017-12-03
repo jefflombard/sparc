@@ -28,12 +28,12 @@ Install spark once globally:
 ```
 
 ### Log in
+*You need to be logged in and authenticated to a dev hub org in SFDX.*
 ```
     spark login
 ```
 
 ### Creating an App
-*You need to be logged in and authenticated to a dev hub org in SFDX.*
 
 To create a new app, run:
 ```
@@ -51,24 +51,21 @@ my-app
 ```
 
 Spark makes it easy to write Lightning apps, handling boiler plate for you.
-Once installation is finished, you can run some prebuilt commands inside the project folder:
-
-- `npm test`
-- `npm build`
-- `npm watch`
-- `npm add:redux` - installs redux and adds a provider component as described in (Lightning-Redux)[https://github.com/madmax983/lightning-redux]
+Once installation is finished, you can speed up development by running shortcuts inside the project folder.
 
 ## Shortcuts
 In addition to creating scaffolding for projects, spark contains useful scripts and aliases for SFDX commands
 
 ### Development
+#### Add packages
+- `spark add:redux` - installs redux and adds a provider component as described in (Lightning-Redux)[https://github.com/madmax983/lightning-redux]
 #### Working with scratch orgs
 - `spark build` - runs the build command for the project.
 - `spark push` - pushes local project to default scratch org.
 - `spark push:force` - pushes local project to default scratch org ignoring conflicts
 - `spark preview` - pushes local code to default scratch org and opens in a new window.
 - `spark open` - opens the local default scratch org
-#### Other
+#### Testing
 - `spark test` - runs the test command to run default tests.
 
 ### Packaging for Production

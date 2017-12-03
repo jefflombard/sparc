@@ -9,7 +9,7 @@ program
 
 // Starting a new project
 program
-  .command('create <projectName>','creates a new project called projectName');
+  .command('create <projectName>','creates a new project called projectName')
 
 // Package and tools
 program
@@ -32,7 +32,5 @@ program
 // Deploying
 program
   .command('package','builds a package that can easily be deployed to a production org.');
-
-
 
 program.parse(process.argv);

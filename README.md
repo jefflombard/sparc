@@ -1,17 +1,17 @@
-# Spark
+# Sparc
 Create Lightning apps with no build configuration. Inspired by [Create React App](https://github.com/facebookincubator/create-react-app)
 
 ## Quick Overview
 ```
-npm install -g spark
+npm install -g sparc
 
-spark my-app
+sparc my-app
 cd my-app/
-spark preview
+sparc preview
 ```
 
 ### Shortcuts
-Spark also has convenient shortcuts that make Lightning development a breeze, see [shortcuts](#shotcuts).
+sparc also has convenient shortcuts that make Lightning development a breeze, see [shortcuts](#shotcuts).
 
 ## Getting Started
 
@@ -22,28 +22,28 @@ Spark also has convenient shortcuts that make Lightning development a breeze, se
 - [SFDX](https://developer.salesforce.com/tools/sfdxcli)
 
 #### Install
-Install spark once globally:
+Install sparc once globally:
 ```
-    npm install spark -g
+    npm install sparc -g
 ```
 
 ### Log in
 *You need to be logged in and authenticated to a dev hub org in SFDX.* This can be done quickly by running:
 ```
-    spark login
+    sparc login
 ```
-`spark login` automatically sets whichever hub org you log into as your default.
+`sparc login` automatically sets whichever hub org you log into as your default.
 
 ### Creating an App
 
 To create a new app, run:
 ```
-spark create my-app
+sparc create my-app
 cd my-app
 ```
 
-Spark will create a directory called `my-app` inside the current folder.
-Inside that directory, Spark will generate the initial project structure and install the dependencies.
+sparc will create a directory called `my-app` inside the current folder.
+Inside that directory, sparc will generate the initial project structure and install the dependencies.
 
 ```
 my-app
@@ -51,32 +51,32 @@ my-app
 └── app
 ```
 
-Spark makes it easy to write Lightning apps, handling boiler plate for you.
+sparc makes it easy to write Lightning apps, handling boiler plate for you.
 Once installation is finished, you can speed up development by running shortcuts inside the project folder.
 
 ## Shortcuts and Commands
-In addition to creating scaffolding for projects, spark contains useful scripts and aliases for SFDX commands. These should be run from within a project folder.
+In addition to creating scaffolding for projects, sparc contains useful scripts and aliases for SFDX commands. These should be run from within a project folder.
 
 ### Starting a new project
-- `spark create myProject` - creates a new project called myProject
+- `sparc create myProject` - creates a new project called myProject
 
 ### Development
 #### Add packages and tools
-- `spark add:redux` - installs redux and adds a provider component as described in [Lightning-Redux](https://github.com/madmax983/lightning-redux).
-- `spark add:strike` - adds components from the [strike](http://www.lightningstrike.io/) library.
-- `spark add:git` - runs the `git init` command.
+- `sparc add:redux` - installs redux and adds a provider component as described in [Lightning-Redux](https://github.com/madmax983/lightning-redux).
+- `sparc add:strike` - adds components from the [strike](http://www.lightningstrike.io/) library.
+- `sparc add:git` - runs the `git init` command.
 
 #### Working with scratch orgs
-- `spark build` - runs the build command for the project.
-- `spark push` - pushes local project to default scratch org.
-- `spark push:force` - pushes local project to default scratch org ignoring conflicts.
-- `spark preview` - pushes local code to default scratch org and opens in a new window.
-- `spark open` - opens the local default scratch org.
+- `sparc build` - runs the build command for the project.
+- `sparc push` - pushes local project to default scratch org.
+- `sparc push:force` - pushes local project to default scratch org ignoring conflicts.
+- `sparc preview` - pushes local code to default scratch org and opens in a new window.
+- `sparc open` - opens the local default scratch org.
 #### Testing
-- `spark test` - runs the test command to run default tests.
+- `sparc test` - runs the test command to run default tests.
 
 #### Deploying to production
-- `spark package` - builds a package that can easily be deployed to a production org.
+- `sparc package` - builds a package that can easily be deployed to a production org.
 
 ## Contributing
 Help is appreciated, if you would like to contribute, you can either message me or create a PR.

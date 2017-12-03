@@ -2,13 +2,13 @@
   "name": "sparc",
   "version": "0.0.1",
   "description": "Create Lightning apps with no build configuration.",
-  "main": "spark/spark.js",
+  "main": "sparc.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jefflombard/spark.git"
+    "url": "git+https://github.com/jefflombard/sparc.git"
   },
   "keywords": [
     "salesforce",
@@ -23,9 +23,9 @@
   "author": "Jeff Lombard",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/jefflombard/spark/issues"
+    "url": "https://github.com/jefflombard/sparc/issues"
   },
-  "homepage": "https://github.com/jefflombard/spark#readme",
+  "homepage": "https://github.com/jefflombard/sparc#readme",
   "engines": {
     "node": ">=8.1.3"
   },

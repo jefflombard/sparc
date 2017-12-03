@@ -7,29 +7,37 @@ npm install -g spark
 
 spark my-app
 cd my-app/
-npm preview:new
+spark preview
 ```
 
-### Get Started Immediately
+### Shortcuts
+Spark also has convenient shortcuts that make Lightning development a breeze, see [shortcuts](#shotcuts)
 
 ## Getting Started
 
 ### Installation
-Install spark once globally:
-```
-    npm install spark -g
-```
 
 #### Requirements
 - [Node.js](https://nodejs.org) >= v8.1.3
 - [SFDX](https://developer.salesforce.com/tools/sfdxcli)
 
-You need to be logged in and authenticated to a dev hub org in SFDX.
+#### Install
+Install spark once globally:
+```
+    npm install spark -g
+```
+
+### Log in
+```
+    spark login
+```
 
 ### Creating an App
+*You need to be logged in and authenticated to a dev hub org in SFDX.*
+
 To create a new app, run:
 ```
-spark my-app
+spark create my-app
 cd my-app
 ```
 
@@ -49,6 +57,22 @@ Once installation is finished, you can run some prebuilt commands inside the pro
 - `npm build`
 - `npm watch`
 - `npm add:redux` - installs redux and adds a provider component as described in (Lightning-Redux)[https://github.com/madmax983/lightning-redux]
+
+## Shortcuts
+In addition to creating scaffolding for projects, spark contains useful scripts and aliases for SFDX commands
+
+### Development
+#### Working with scratch orgs
+- `spark build` - runs the build command for the project.
+- `spark push` - pushes local project to default scratch org.
+- `spark push:force` - pushes local project to default scratch org ignoring conflicts
+- `spark preview` - pushes local code to default scratch org and opens in a new window.
+- `spark open` - opens the local default scratch org
+#### Other
+- `spark test` - runs the test command to run default tests.
+
+### Packaging for Production
+- `spark package` - builds a package that can be deployed to a production org.
 
 ## Contributing
 Help is appreciated, if you would like to contribute, you can either message me or create a PR.

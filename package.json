@@ -26,7 +26,10 @@
     "url": "https://github.com/jefflombard/spark/issues"
   },
   "homepage": "https://github.com/jefflombard/spark#readme",
-  "engines" : {
-      "node" : ">=8.1.3"
+  "engines": {
+    "node": ">=8.1.3"
+  },
+  "dependencies": {
+    "commander": "^2.12.2"
   }
 }

@@ -1,7 +1,9 @@
 # Available Commands
 
 - `sparc auth` - opens web login and automatically sets the authenticated hub org to default.
+    - *Optional*: `sparc auth [alias]` Provide an alias for your authenticated hub org. e.g. `sparc auth aliasName`
 - `sparc open` - opens the local default scratch org.
+
 
 ## Planned
 
@@ -20,3 +22,4 @@
 - `sparc package` - builds a package that can easily be deployed to a production org.
 - `sparc test`
 - `sparc typeCheck`
+- `sparc orgs` - lists your orgs.

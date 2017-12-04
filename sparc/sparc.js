@@ -11,6 +11,7 @@ program
 program
     .command('auth [alias]','opens web login and automatically sets the authenticated hub org to default. Optionally set provided alias.')
     .command('open','opens the local default scratch org.')
+    .command('orgs','lists your available orgs')
 
 //   .command('create <projectName>','creates a new project called projectName')
 //

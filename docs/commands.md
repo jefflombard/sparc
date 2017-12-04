@@ -1,6 +1,5 @@
 # Available Commands
 
-- `sparc add git` - runs the `git init` command and adds git to the project.
 - `sparc apex <myClass>` - creates a new apex class called `myClass`.
 - `sparc app <myApp>` - creates a new Lightnning app called `myApp`.
 - `sparc create <myProject>` - creates a new project called `myProject`.
@@ -20,18 +19,12 @@
 
 ## Planned
 
-- `sparc create myProject` - creates a new project called myProject
-
-    - run 'sfdx force:project create'
-        sfdx force:project:create -n structure
-
-
-    - `sparc build` - runs the build command for the project.
-    - `sparc add strike` - adds components from the [strike](http://www.lightningstrike.io/) library.
-    - `sparc add redux` - installs redux and adds a provider component as described in [Lightning-Redux](https://github.com/madmax983/lightning-redux).
-    - `sparc add flow` - adds Flow dependency and associated command shortcuts.
-        - `sparc test`
-    - `sparc add jest` - installs Jest dependency and associated command shortcuts.
-        - `sparc typeCheck`
+- `sparc build` - runs the build command for the project.
+- `sparc add strike` - adds components from the [strike](http://www.lightningstrike.io/) library.
+- `sparc add redux` - installs redux and adds a provider component as described in [Lightning-Redux](https://github.com/madmax983/lightning-redux).
+- `sparc add flow` - adds Flow dependency and associated command shortcuts.
+- `sparc test`
+- `sparc add jest` - installs Jest dependency and associated command shortcuts.
+- `sparc typeCheck`
 
 - `sparc package` - builds a package that can easily be deployed to a production org.

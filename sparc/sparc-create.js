@@ -1,5 +1,7 @@
 const program = require('commander');
 const tar = require('tar');
+const ora = require('ora');
+const { commands,mkDir,simpleExecute } = require('./sparc-helpers.js');
 
 program
   .parse(process.argv);
@@ -15,4 +17,31 @@ if (!args.length) {
   process.exit(1);
 }
 
-// Extract tar into the current directory and set name
+const createProject = projectName => {
+    const spinner = ora('Creating Project').start();
+
+    // Pseudo Loading... it's a feature!
+    setTimeout(() => {
+    	spinner.color = 'yellow';
+    	spinner.text = 'Almost done!';
+    }, 3000);
+    setTimeout(() => {
+        spinner.succeed('Finishing!');
+    }, 6000);
+
+    const runlist = [
+        commands.createSFDX(projectName),
+        commands.addGit(projectName),
+        commands.addNPM(projectName),
+        // commands.addRedux(projectName),
+        commands.initialCommit(projectName)
+    ];
+    const generatedCommand = runlist.join(' && ');
+    simpleExecute(generatedCommand);
+
+    // need to add in the redux component files
+    // need to add in appropriate npm scripts for redux and flow
+
+};
+
+createProject(projectName);

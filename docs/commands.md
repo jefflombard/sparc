@@ -8,15 +8,14 @@
     - `sparc open [appName]` - opens the `appName` Lightning app on the local scratch org.
 - `sparc orgs` - lists all of your dev hub orgs and active scratch orgs.
     - `sparc orgs -a` - lists all of your available orgs.
+- `sparc preview` - pushes local code to default scratch org and opens in a new window.
+    - `sparc preview [appName]` - pushes local code and opens lightning app called `appName`
 - `sparc pull` - pulls changed source from the scratch org to local project folder.
     - `sparc pull -f` - same as `sparc pull` but ignores metadata conflicts.
 - `sparc push` - pushes local project to default scratch org.
     - `sparc push -f` - same as `sparc push` but ignores metadata conflicts.
 
 ## Planned
-
-- `sparc preview` - pushes local code to default scratch org and opens in a new window.
-    - `sparc preview <appName>` - pushes local code and opens lightning app called `appName`
 
 - `sparc create myProject` - creates a new project called myProject
     - `sparc build` - runs the build command for the project.

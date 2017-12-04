@@ -3,15 +3,14 @@
 - `sparc add`
     - `sparc add git` - runs the `git init` command and adds git to the project.
 - `sparc login` - opens web login and automatically sets the authenticated hub org to default.
-- `sparc login <aliasName>` - does the same as `sparc auth` plus assigns the hub org the alias `aliasName`
+    - `sparc login <aliasName>` - does the same as `sparc auth` plus assigns the hub org the alias `aliasName`
 - `sparc open` - opens the local default scratch org.
 - `sparc orgs` - lists all of your dev hub orgs and active scratch orgs.
-- `sparc orgs -a` - lists all of your available orgs.
-
+    - `sparc orgs -a` - lists all of your available orgs.
 - `sparc pull` - pulls changed source from the scratch org to local project folder.
-- `sparc pull -f` - same as `sparc pull` but ignores metadata conflicts.
+    - `sparc pull -f` - same as `sparc pull` but ignores metadata conflicts.
 - `sparc push` - pushes local project to default scratch org.
-- `sparc push -f` - same as `sparc push` but ignores metadata conflicts.
+    - `sparc push -f` - same as `sparc push` but ignores metadata conflicts.
 
 ## Planned
 

@@ -1,23 +1,22 @@
 # Available Commands
 
-- `sparc add`
-    - `sparc add git` - runs the `git init` command and adds git to the project.
+- `sparc add git` - runs the `git init` command and adds git to the project.
 - `sparc apex <myClass>` - creates a new apex class called `myClass`.
 - `sparc app <myApp>` - creates a new Lightnning app called `myApp`.
 - `sparc create <myProject>` - creates a new project called `myProject`.
 - `sparc component <myComponent>` - creates a new component with name of `myComponent`.
 - `sparc login` - opens web login and automatically sets the authenticated hub org to default.
-    - `sparc login [aliasName]` - does the same as `sparc auth` plus assigns the hub org the alias `aliasName`
+- `sparc login [aliasName]` - does the same as `sparc auth` plus assigns the hub org the alias `aliasName`
 - `sparc open` - opens the local default scratch org.
-    - `sparc open [appName]` - opens the `appName` Lightning app on the local scratch org.
+- `sparc open [appName]` - opens the `appName` Lightning app on the local scratch org.
 - `sparc orgs` - lists all of your dev hub orgs and active scratch orgs.
-    - `sparc orgs -a` - lists all of your available orgs.
+- `sparc orgs -a` - lists all of your available orgs.
 - `sparc preview` - pushes local code to default scratch org and opens in a new window.
-    - `sparc preview [appName]` - pushes local code and opens lightning app called `appName`
+- `sparc preview [appName]` - pushes local code and opens lightning app called `appName`
 - `sparc pull` - pulls changed source from the scratch org to local project folder.
-    - `sparc pull -f` - same as `sparc pull` but ignores metadata conflicts.
+- `sparc pull -f` - same as `sparc pull` but ignores metadata conflicts.
 - `sparc push` - pushes local project to default scratch org.
-    - `sparc push -f` - same as `sparc push` but ignores metadata conflicts.
+- `sparc push -f` - same as `sparc push` but ignores metadata conflicts.
 
 ## Planned
 

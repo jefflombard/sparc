@@ -2,8 +2,8 @@
 
 - `sparc add`
     - `sparc add git` - runs the `git init` command and adds git to the project.
-- `sparc auth` - opens web login and automatically sets the authenticated hub org to default.
-- `sparc auth <aliasName>` - does the same as `sparc auth` plus assigns the hub org the alias `aliasName`
+- `sparc login` - opens web login and automatically sets the authenticated hub org to default.
+- `sparc login <aliasName>` - does the same as `sparc auth` plus assigns the hub org the alias `aliasName`
 - `sparc open` - opens the local default scratch org.
 - `sparc orgs` - lists all of your dev hub orgs and active scratch orgs.
 - `sparc orgs -a` - lists all of your available orgs.

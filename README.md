@@ -1,5 +1,7 @@
 # Sparc
-Create Lightning apps with no build configuration. Inspired by [Create React App](https://github.com/facebookincubator/create-react-app).
+Create Lightning apps with no build configuration. Sparc is a cli and project scaffolder.
+
+Inspired by [Create React App](https://github.com/facebookincubator/create-react-app).
 
 ## Quick Overview
 ```

@@ -3,8 +3,9 @@
 - `sparc add`
     - `sparc add git` - runs the `git init` command and adds git to the project.
 - `sparc login` - opens web login and automatically sets the authenticated hub org to default.
-    - `sparc login <aliasName>` - does the same as `sparc auth` plus assigns the hub org the alias `aliasName`
+    - `sparc login [aliasName]` - does the same as `sparc auth` plus assigns the hub org the alias `aliasName`
 - `sparc open` - opens the local default scratch org.
+    - `sparc open [appName]` - opens the `appName` Lightning app on the local scratch org.
 - `sparc orgs` - lists all of your dev hub orgs and active scratch orgs.
     - `sparc orgs -a` - lists all of your available orgs.
 - `sparc pull` - pulls changed source from the scratch org to local project folder.
@@ -13,9 +14,6 @@
     - `sparc push -f` - same as `sparc push` but ignores metadata conflicts.
 
 ## Planned
-
-
-- `sparc open <appName>` - opens the `appName` Lightning app on the local scratch org.
 
 - `sparc preview` - pushes local code to default scratch org and opens in a new window.
     - `sparc preview <appName>` - pushes local code and opens lightning app called `appName`

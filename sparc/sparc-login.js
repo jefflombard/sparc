@@ -17,7 +17,7 @@ if (!args.length) {
     return auth();
 } else if (args.length > 1) {
     console.log('Please do not use a space in your alias name.');
-    return;
+    process.exit(1);
 }
 
 auth(alias);

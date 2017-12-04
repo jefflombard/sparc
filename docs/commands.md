@@ -1,7 +1,7 @@
 # Available Commands
 
 - `sparc auth` - opens web login and automatically sets the authenticated hub org to default.
-    - *Optional*: `sparc auth [alias]` Provide an alias for your authenticated hub org. e.g. `sparc auth aliasName`
+- `sparc auth aliasName` - opens web login, automatically sets the authenticated hub org to default, and assigns the hub org the alias `aliasName`
 - `sparc open` - opens the local default scratch org.
 
 

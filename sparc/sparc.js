@@ -9,7 +9,7 @@ program
 
 //Commands
 program
-    .command('auth','opens web login and automatically sets the authenticated hub org to default.')
+    .command('auth [alias]','opens web login and automatically sets the authenticated hub org to default. Optionally set provided alias.')
     .command('open','opens the local default scratch org.')
 
 //   .command('create <projectName>','creates a new project called projectName')

@@ -1,4 +1,2 @@
-const { exec } = require('child_process');
-exec('sfdx force:org:open', (err, stdout, stderr) => {
-  console.log(`${stdout}`,`${stderr}`);
-});
+const { simpleExecute } = require('./sparc-helpers.js');
+simpleExecute('sfdx force:org:open');

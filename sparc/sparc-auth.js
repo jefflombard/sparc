@@ -1,15 +1,16 @@
 const program = require('commander');
 const { simpleExecute } = require('./sparc-helpers.js');
-// const { execute }= require('helpers');
 
 program
   .parse(process.argv);
 
 const args = program.args;
+const alias = args.join();
 const auth = (alias) => {
-    const commandString = alias ? "":"";
-    exec()
-
+    const base = "sfdx force:auth:web:login";
+    const flags = "-d"
+    const commandString = alias ? `${base} ${flags} -a ${alias}` : `${base} ${flags}`;
+    simpleExecute(commandString);
 };
 
 if (!args.length) {
@@ -19,15 +20,4 @@ if (!args.length) {
     return;
 }
 
-const alias = args.join();
-
-console.log()
-
-
-
-
-
-// } else {
-//     const alias = args.join();
-
-// }
+auth(alias);

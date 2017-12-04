@@ -9,7 +9,8 @@ program
 
 //Commands
 program
-    .command('auth [alias]','opens web login and automatically sets the authenticated hub org to default. Optionally set provided alias.')
+    .command('add <packageName>','adds package of packageName')
+    .command('auth [alias]','opens web login and automatically sets the authenticated hub org to default.')
     .command('open','opens the local default scratch org.')
     .command('orgs','lists your available orgs')
     .command('pull', 'pulls changed source from the scratch org to local project folder.')

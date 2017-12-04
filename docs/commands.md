@@ -8,7 +8,7 @@
 - `sparc pull` - pulls changed source from the scratch org to local project folder.
 - `sparc pull -f` - same as `sparc pull` but ignores metadata conflicts.
 - `sparc push` - pushes local project to default scratch org.
-- `sparc push -f --force` - same as `sparc push` but ignores metadata conflicts.
+- `sparc push -f` - same as `sparc push` but ignores metadata conflicts.
 
 ## Planned
 

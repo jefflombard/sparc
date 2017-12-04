@@ -12,8 +12,8 @@ cd my-app/
 sparc preview
 ```
 
-### Shortcuts
-sparc also has convenient shortcuts that make Lightning development a breeze, see [shortcuts](#shotcuts).
+### Commands
+Sparc has convenient commands and shortcuts that make Lightning development a breeze, see [commands](docs/commands.md).
 
 ## Getting Started
 

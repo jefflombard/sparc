@@ -1,11 +1,11 @@
 const program = require('commander');
-const tar = require('tar');
+const { simpleExecute } = require('./sparc-helpers.js');
 
 program
   .parse(process.argv);
 
 const args = program.args;
-const projectName = args.join();
+const componentName = args.join();
 
 if (!args.length) {
   console.error('A project name is required.');
@@ -15,4 +15,4 @@ if (!args.length) {
   process.exit(1);
 }
 
-// Extract tar into the current directory and set name
+simpleExecute(`sfdx force:lightning:component:create -n ${componentName}`);

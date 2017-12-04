@@ -30,7 +30,8 @@
     "node": ">=8.1.3"
   },
   "dependencies": {
-    "commander": "^2.12.2"
+    "commander": "^2.12.2",
+    "tar": "^4.1.1"
   },
   "bin": {
     "sparc": "./sparc/sparc.js"

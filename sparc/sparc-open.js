@@ -1,6 +1,5 @@
 const program = require('commander');
 const { simpleExecute } = require('./sparc-helpers.js');
-simpleExecute('sfdx force:org:open');
 
 program
   .parse(process.argv);

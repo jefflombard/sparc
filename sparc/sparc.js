@@ -9,7 +9,11 @@ program
 
 //Commands
 program
-    .command('add <packageName>','adds package of packageName')
+    .command('add <packageName>','adds package of packageName.')
+    .command('app <appName>','creates a Lightning app called appName.')
+    .command('apex <className>', 'creates an apex class called className')
+    .command('create <projectName>', 'creates a project named projectName.')
+    .command('component <componentName>', 'creates a Lightning component named componentName.')
     .command('login [alias]','opens web login and automatically sets the authenticated hub org to default.')
     .command('open','opens the local default scratch org.')
     .command('orgs','lists your available orgs')

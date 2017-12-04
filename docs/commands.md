@@ -4,8 +4,7 @@
 - `sparc auth aliasName` - does the same as `sparc auth` plus assigns the hub org the alias `aliasName`
 - `sparc open` - opens the local default scratch org.
 - `sparc orgs` - lists all of your dev hub orgs and active scratch orgs.
-- `sparc orgs -l` - lists all of your available orgs.
-
+- `sparc orgs -a` - lists all of your available orgs.
 
 ## Planned
 

@@ -5,6 +5,10 @@
 - `sparc open` - opens the local default scratch org.
 - `sparc orgs` - lists all of your dev hub orgs and active scratch orgs.
 - `sparc orgs -a` - lists all of your available orgs.
+- `sparc pull` - pulls changed source from the scratch org to local project folder.
+- `sparc pull -f` - same as `sparc pull` but ignores metadata conflicts.
+- `sparc push` - pushes local project to default scratch org.
+- `sparc push -f --force` - same as `sparc push` but ignores metadata conflicts.
 
 ## Planned
 
@@ -15,8 +19,6 @@
 - `sparc add flow` - adds Flow dependency and associated command shortcuts.
 - `sparc add jest` - installs Jest dependency and associated command shortcuts.
 - `sparc build` - runs the build command for the project.
-- `sparc push` - pushes local project to default scratch org.
-- `sparc push -f --force` - pushes local project to default scratch org ignoring conflicts.
 - `sparc preview` - pushes local code to default scratch org and opens in a new window.
 - `sparc apex myClass` - creates a new apex class with name of `myClass`.
 - `sparc component myComponent` - creates a new component with name of `myComponent`.

@@ -56,6 +56,9 @@ my-app
 sparc makes it easy to write Lightning apps, handling boiler plate for you.
 Once installation is finished, you can speed up development by running [sparc commands](docs/commands.md) inside your project folder.
 
+## Forking
+If you are working on a team with a large project and very specific use cases, I recommend forking and customizing this repo to speed up development.
+
 ## Contributing
 Help is appreciated, if you would like to contribute, you can either message me or create a PR.
 

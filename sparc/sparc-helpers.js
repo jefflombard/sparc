@@ -6,7 +6,7 @@ const executeInDir = (projectName,cmd) => {
 };
 
 module.exports = {
-    commands: {
+    commandTextGenerators: {
         addNPM: function(projectName){
             return executeInDir(projectName,'npm init -y');
         },
@@ -22,11 +22,7 @@ module.exports = {
         initialCommit: function(projectName){
             return executeInDir(projectName,'git add . && git commit -m ${projectName}');
         }
-    },
-    extractTar: function(packageName,destination){
-        const relPath = `../assets/${packageName}.tar.gz`;
-        console.log(relPath);
-    },
+    }
     mkDir: function(dirName){
         const dir = `./${dirName}`;
         if (!fs.existsSync(dir)){

@@ -1,6 +1,6 @@
 const program = require('commander');
-const cmd = require('cmd-promise');
-const tar = require('tar');
+const Listr = require('listr');
+const execa = require('execa');
 const { commands,mkDir,simpleExecute } = require('./sparc-helpers.js');
 
 program
@@ -21,14 +21,16 @@ const checkArgs = args => {
 
 const createProject = (args,projectName) => {
     checkArgs(args);
-    
+
     // Build Run List
-    const runlist = [
+    const runlist = new Listr([
         {
-            title: 'Add and initialize Git',
-            task: ''
+            title: 'Test Command',
+            task: () => execa.stdout('echo', ['test'])
         }
-    ]
+    ])
+
+    return runlist.run().catch(err => console.error(err))
 }
 
 createProject(args,projectName);

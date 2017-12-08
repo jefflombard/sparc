@@ -22,7 +22,7 @@ module.exports = {
         initialCommit: function(projectName){
             return executeInDir(projectName,'git add . && git commit -m ${projectName}');
         }
-    }
+    },
     mkDir: function(dirName){
         const dir = `./${dirName}`;
         if (!fs.existsSync(dir)){

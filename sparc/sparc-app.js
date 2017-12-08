@@ -8,7 +8,7 @@ const args = program.args;
 const appName = args.join();
 
 if (!args.length) {
-  console.error('A project name is required.');
+  console.error('An app name is required.');
   process.exit(1);
 } else if (args.length > 1) {
   console.error("Pleased don't use whitespace. Try again.");

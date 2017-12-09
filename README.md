@@ -67,6 +67,7 @@ Help is appreciated, if you would like to contribute, you can either message me 
 - Adding features/functionality
 - Yarn support
 - Testing on Windows 10
+- Figuring out a way to have dependencies pull from their respective repos instead of bundling.
 
 # Acknowledgements
 Special thanks to the following projects:

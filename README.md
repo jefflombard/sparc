@@ -73,3 +73,8 @@ Special thanks to the following projects:
 
 - [Create React App](https://github.com/facebookincubator/create-react-app)
 - [Lightning Redux](https://github.com/madmax983/lightning-redux)
+- [strike by Appiphony](http://www.lightningstrike.io/)
+
+# License
+
+Sparc is open source and available under the [GNU GPLv3 License](LICENSE).

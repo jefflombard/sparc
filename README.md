@@ -65,8 +65,8 @@ Help is appreciated, if you would like to contribute, you can either message me 
 ### Appreciated contributions
 - Open issues
 - Adding features/functionality
-    - flag for create project to enable different org types.
-- Yarn
+- Yarn support
+- Testing on Windows 10
 
 # Acknowledgements
 Special thanks to the following projects:

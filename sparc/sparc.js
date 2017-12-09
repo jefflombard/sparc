@@ -16,6 +16,7 @@ program
     .command('component <componentName>', 'creates a Lightning component named componentName.')
     .command('login [alias]','opens web login and automatically sets the authenticated hub org to default.')
     .command('open','opens the local default scratch org.')
+    .command('org <orgAlias>','creates a scratch org with the name <orgAlias>')
     .command('orgs','lists your available orgs')
     .command('preview','pushes local code to default scratch org and opens in a new window.')
     .command('pull', 'pulls changed source from the scratch org to local project folder.')

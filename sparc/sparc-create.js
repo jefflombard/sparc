@@ -1,9 +1,10 @@
 const program = require('commander');
 const Listr = require('listr');
-const execa = require('execa');
+const Command = require('command-promise');
 const { commands,mkDir,simpleExecute } = require('./sparc-helpers.js');
 
 program
+  .option('-y, --yes', 'adds all suggested packages.')
   .parse(process.argv);
 
 const args = program.args;
@@ -25,10 +26,23 @@ const createProject = (args,projectName) => {
     // Build Run List
     const runlist = new Listr([
         {
-            title: 'Test Command',
-            task: () => execa.stdout('echo', ['test'])
+            title: 'Creating SFDX Project',
+            task: () => Command('sfdx','force:project:create','-n',projectName)
+        },
+        {
+            title: 'Initializing Git',
+            task: () => Command('cd',projectName,'&&','git','init')
+        },
+        {
+            title: 'Initializing NPM',
+            task: () => Command('cd',projectName,'&&','npm init -y')
         }
     ])
+
+    if(program.yes){
+        // add additional runlist steps
+        console.log('test!')
+    }
 
     return runlist.run().catch(err => console.error(err))
 }

@@ -8,6 +8,7 @@
 - `sparc login [aliasName]` - does the same as `sparc auth` plus assigns the hub org the alias `aliasName`
 - `sparc open` - opens the local default scratch org.
 - `sparc open [appName]` - opens the `appName` Lightning app on the local scratch org.
+- `sparc org <orgName>` - creates a scratch org with the alias <orgName>
 - `sparc orgs` - lists all of your dev hub orgs and active scratch orgs.
 - `sparc orgs -a` - lists all of your available orgs.
 - `sparc preview` - pushes local code to default scratch org and opens in a new window.
